@@ -17,7 +17,7 @@
 }
 /* main */
 main {
-    padding: 100px 250px;
+    padding: 80px 250px;
 }
 .button1 {
     background-color: #47ADF1;
@@ -39,17 +39,37 @@ main {
 h3 {
     color:#444851; 
  }
+.bkg {
+    background-color: #f6f8f9;
+ }
+ .bkg-white {
+    background-color: white;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border: 1px solid  #f6f8f9;
+ }
 
-.box1 {
+/* .box1 {
     padding-top: 40px;
     padding-left: 20px;
+} */
+ul.lista1 {
+    list-style-type: none;
 }
-.lista1 {
-    list-style-type: circle;
+ul.lista1 li.check::before {
+    content: "\2713";
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
 }
-.lista_1{
-    list-style-type:symbols(&#9662);
+ul.lista1 li.deleted::before {
+    content: "\2573";
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
 }
+
 .buttonblue {
     background-color: #47ADF1;
     width: fit-content;
