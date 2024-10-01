@@ -16,7 +16,7 @@
     font-style: normal;
 }
 /* Header */
-.box {
+.title {
     font-size: 3em;
     display: inline-block;
     vertical-align: middle;
@@ -44,3 +44,29 @@ main {
     border: 1px solid #D4D8DC;
     border-radius: 10px;
 }
+
+h3 {
+    color:#444851; 
+ }
+
+.box1 {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.lista1 {
+    list-style-type: circle;
+}
+.lista_1{
+    list-style-type:symbols(&#9662);
+    border: 1px solid #AADED4;
+}
+.buttonblue {
+    background-color: #47ADF1;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 10px;
+}
+
