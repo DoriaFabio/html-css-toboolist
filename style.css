@@ -49,7 +49,6 @@ h3 {
 }
 .lista_1{
     list-style-type:symbols(&#9662);
-    border: 1px solid #AADED4;
 }
 .buttonblue {
     background-color: #47ADF1;
@@ -59,6 +58,7 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 .buttonpurple {
     background-color: #9C72E4;
@@ -68,6 +68,7 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 .buttonaqua {
     background-color: #64C0A9;
@@ -77,6 +78,7 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 .buttonorange{
     background-color: #F29E33;
@@ -86,6 +88,7 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 .buttonpink {
     background-color: #D863A1;
@@ -95,6 +98,7 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 .buttonolive {
     background-color: #B0C926;
@@ -104,5 +108,6 @@ h3 {
     border-radius: 15px;
     display: inline-block;
     font-size: 10px;
+    margin-left: 3px;
 }
 
