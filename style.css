@@ -1,4 +1,13 @@
 /* Impostazioni generali */
+/* Colori
+#47ADF1 blue
+#9C72E4 purple
+#64C0A9 Aqua
+#F29E33 Orange
+#D863A1 pink
+#B0C926 olive
+
+*/
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +15,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+/* Header */
 .box {
     font-size: 3em;
     display: inline-block;
@@ -13,4 +23,24 @@
 }
 .middle {
     vertical-align: middle;
+}
+/* main */
+main {
+    padding: 100px 250px;
+}
+.button1 {
+    background-color: #47ADF1;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+.button2 {
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+    color: #D4D8DC;
+    border: 1px solid #D4D8DC;
+    border-radius: 10px;
 }
