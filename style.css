@@ -17,8 +17,9 @@
 }
 /* main */
 main {
-    padding: 80px 250px;
+    padding: 60px 250px;
 }
+/* Bottoni blu e bianco */
 .button1 {
     background-color: #47ADF1;
     width: fit-content;
@@ -35,10 +36,11 @@ main {
     border: 1px solid #D4D8DC;
     border-radius: 10px;
 }
-
+/* Colore intestazione liste */
 h3 {
     color:#444851; 
  }
+ /* Sfondo pagina */
 .bkg {
     background-color: #f6f8f9;
  }
@@ -49,11 +51,7 @@ h3 {
     padding-top: 20px;
     border: 1px solid  #f6f8f9;
  }
-
-/* .box1 {
-    padding-top: 40px;
-    padding-left: 20px;
-} */
+/* Elemento lista */
 ul.lista1 {
     list-style-type: none;
 }
@@ -62,14 +60,25 @@ ul.lista1 li.check::before {
     border: 1px solid green;
     color: green;
     border-radius: 50%;
+    padding: 3px;
+    font-size: 10px;
+}
+ul {
+    padding-bottom: 10px;
+}
+li {
+    padding-top: 10px;
 }
 ul.lista1 li.deleted::before {
-    content: "\2573";
+    content: "\2715";
     border: 1px solid red;
     border-radius: 50%;
     color: red;
+    font-size: 10px;
+    padding: 3px;
 }
-
+/* Colore bottone accanto a ogni elemento della lista */
+/* Bottone blu */
 .buttonblue {
     background-color: #47ADF1;
     width: fit-content;
@@ -80,6 +89,7 @@ ul.lista1 li.deleted::before {
     font-size: 10px;
     margin-left: 3px;
 }
+/* Bottone viola */
 .buttonpurple {
     background-color: #9C72E4;
     width: fit-content;
@@ -90,6 +100,7 @@ ul.lista1 li.deleted::before {
     font-size: 10px;
     margin-left: 3px;
 }
+/* Bottone aqua */
 .buttonaqua {
     background-color: #64C0A9;
     width: fit-content;
@@ -100,6 +111,7 @@ ul.lista1 li.deleted::before {
     font-size: 10px;
     margin-left: 3px;
 }
+/* Bottone arancio */
 .buttonorange{
     background-color: #F29E33;
     width: fit-content;
@@ -110,6 +122,7 @@ ul.lista1 li.deleted::before {
     font-size: 10px;
     margin-left: 3px;
 }
+/* Bottone rosa */
 .buttonpink {
     background-color: #D863A1;
     width: fit-content;
@@ -120,6 +133,7 @@ ul.lista1 li.deleted::before {
     font-size: 10px;
     margin-left: 3px;
 }
+/* Bottone oliva */
 .buttonolive {
     background-color: #B0C926;
     width: fit-content;
