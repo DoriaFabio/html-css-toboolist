@@ -1,0 +1,16 @@
+/* Impostazioni generali */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.box {
+    font-size: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.middle {
+    vertical-align: middle;
+}
